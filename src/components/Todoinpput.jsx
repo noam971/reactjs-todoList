@@ -12,7 +12,7 @@ export default function Todoinput(props) {
                     return
                 }
                 if (!todoValue) { 
-                    reutn
+                    return
                 }
                 handleAddTodos(todoValue)
                 setTodoValue('')
